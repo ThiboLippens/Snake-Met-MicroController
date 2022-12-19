@@ -1,0 +1,37 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <RootNamespace>Project_6_12_2022</RootNamespace>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Afbeeldingen\Body.png" />
+    <None Remove="Afbeeldingen\DeadBody.png" />
+    <None Remove="Afbeeldingen\DeadHead.png" />
+    <None Remove="Afbeeldingen\DroidSansMono.ttf" />
+    <None Remove="Afbeeldingen\Empty.png" />
+    <None Remove="Afbeeldingen\Food.png" />
+    <None Remove="Afbeeldingen\Head.png" />
+    <None Remove="Afbeeldingen\icon.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.IO.Ports" Version="7.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Afbeeldingen\Body.png" />
+    <Resource Include="Afbeeldingen\DeadBody.png" />
+    <Resource Include="Afbeeldingen\DeadHead.png" />
+    <Resource Include="Afbeeldingen\DroidSansMono.ttf" />
+    <Resource Include="Afbeeldingen\Empty.png" />
+    <Resource Include="Afbeeldingen\Food.png" />
+    <Resource Include="Afbeeldingen\Head.png" />
+    <Resource Include="Afbeeldingen\icon.ico" />
+  </ItemGroup>
+
+</Project>
